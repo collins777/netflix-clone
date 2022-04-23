@@ -1,5 +1,5 @@
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_FIREBASE_API,
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
   authDomain: "netflix-clone-ab4d1.firebaseapp.com",
   projectId: "netflix-clone-ab4d1",
   storageBucket: "netflix-clone-ab4d1.appspot.com",

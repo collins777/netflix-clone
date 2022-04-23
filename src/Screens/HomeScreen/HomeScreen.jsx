@@ -1,13 +1,13 @@
 import React from "react";
 import "./HomeScreen.css";
-import { Nav, Banner } from "../../Components";
+import { Nav, Banner, Row } from "../../Components";
 
 const HomeScreen = () => {
   return (
     <div className="homeScreen">
       <Nav />
       <Banner />
-      {/* Rows */}
+      <Row />
     </div>
   );
 };
