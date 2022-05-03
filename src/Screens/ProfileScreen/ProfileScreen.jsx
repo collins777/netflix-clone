@@ -16,8 +16,7 @@ const ProfileScreen = () => {
         <h1>Edit Profile</h1>
         <div className="profileScreen__info">
           <img
-            src="
-            https://external-preview.redd.it/0dTT-3SprPcsNCqo1GTCI-nqGM9EdZYwqyYr_pZ-baE.jpg?auto=webp&s=a1e8532d326f5aa122df2f31694bf142f117fc06"
+            src="https://external-preview.redd.it/0dTT-3SprPcsNCqo1GTCI-nqGM9EdZYwqyYr_pZ-baE.jpg?auto=webp&s=a1e8532d326f5aa122df2f31694bf142f117fc06"
             alt="Profile Screen Avatar"
           />
           <div className="profileScreen__details">
