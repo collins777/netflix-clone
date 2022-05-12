@@ -20,11 +20,11 @@ const Banner = () => {
     fetchData();
   }, []);
 
-  console.log(movie);
+  // console.log(movie); // breaks application for some reason
 
-  const truncate = (string, n) => {
-    return string?.length > n ? string.substring(0, n - 1) + "..." : string;
-  };
+  function truncate(string, n) {
+    return string?.length > n ? string.substr(0, n - 1) + "..." : string;
+  }
 
   return (
     <header
